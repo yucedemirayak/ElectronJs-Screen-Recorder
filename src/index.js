@@ -13,7 +13,8 @@ const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 800,
-    height: 600,
+    height: 700,
+    autoHideMenuBar: true,
     icon: __dirname + '/recording.ico',
     webPreferences: {
       nodeIntegration: true,
