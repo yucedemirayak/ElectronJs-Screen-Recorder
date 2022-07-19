@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+    <title>Screen Capturer</title>
+    <script defer src="render.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <h1 class="text-center">Electron Screen Recorder</h1>
+    <video class="border border-1"></video>
+    <div class="d-flex justify-content-evenly mt-2">
+      <button id="startBtn" class="btn btn-primary">Start</button>
+      <button id="stopBtn" class="btn btn-danger">Stop</button>
+    </div>
+    <hr />
+    <button id="videoSelectBtn" class="btn is-text">
+      Choose a Video Source
+    </button>
+  </body>
+</html>
